@@ -8,20 +8,20 @@ channels = {
             "match": "exact",
         },
         "https://www.youtube.com/@3ABNSabbathSchoolPanelOfficial/videos": {
-            "template": "{year} Lesson {lesson} Q{quarter}",
-            "match": "flexible",
+            "template": "Lesson {lesson} Q{quarter} {year}",
+            "match": "exact",
         },
         "https://www.youtube.com/c/Cl%C3%A1udioCarneiro/videos": {
-            "template": "{year} Lesson {lesson} Q{quarter}",
-            "match": "flexible",
+            "template": "{year} Q{quarter} Lesson {lesson} –",
+            "match": "exact",
         },
         "https://www.youtube.com/@itiswritten/videos": {
-            "template": "{year} Lesson {lesson} Q{quarter}",
-            "match": "flexible",
+            "template": "{year} Q{quarter} Lesson {lesson}: ",
+            "match": "exact",
         },
         "https://www.youtube.com/@SecretsUnsealedMinistry/videos": {
-            "template": "Lesson {lesson} Quarter {quarter}",
-            "match": "flexible",
+            "template": "Lesson {lesson}: ",
+            "match": "exact",
         },
     }
 
